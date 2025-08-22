@@ -1,6 +1,6 @@
 name: flutter_facebook_sdk_new
 description: A flutter plugin to get facebook deep links and log app events using the latest Facebook SDK to include support for xCode 16
-version: 1.0.8
+version: 1.0.9
 homepage: https://github.com/saadfarhan124/flutter_facebook_sdk
 
 environment:
