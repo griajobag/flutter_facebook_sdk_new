@@ -1,3 +1,6 @@
+## 1.0.10
+- Fixed versioning issues
+
 ## 1.0.9
 
 - Add namespace
