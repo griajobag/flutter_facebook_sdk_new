@@ -20,7 +20,7 @@ import io.flutter.plugin.common.MethodChannel
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler
 import io.flutter.plugin.common.MethodChannel.Result
 import io.flutter.plugin.common.PluginRegistry
-import io.flutter.plugin.common.PluginRegistry.Registrar
+//import io.flutter.plugin.common.PluginRegistry.Registrar
 import java.lang.NullPointerException
 import java.util.*
 import kotlin.collections.HashMap
@@ -33,7 +33,7 @@ class FlutterFacebookSdkNewPlugin : FlutterPlugin, MethodCallHandler, StreamHand
     /// This local reference serves to register the plugin with the Flutter Engine and unregister it
     /// when the Flutter Engine is detached from the Activity
 
-    private lateinit var registrar: Registrar
+//    private lateinit var registrar: Registrar
     private lateinit var methodChannel: MethodChannel
     private lateinit var eventChannel: EventChannel
     private lateinit var logger: AppEventsLogger
