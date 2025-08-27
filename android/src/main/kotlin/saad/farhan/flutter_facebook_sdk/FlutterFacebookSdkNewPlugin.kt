@@ -40,8 +40,8 @@ class FlutterFacebookSdkNewPlugin : FlutterPlugin, MethodCallHandler, StreamHand
 
 
     private var deepLinkUrl: String = "Saad Farhan"
-    private var PLATFORM_CHANNEL: String = "flutter_facebook_sdk/methodChannel"
-    private var EVENTS_CHANNEL: String = "flutter_facebook_sdk/eventChannel"
+    private var PLATFORM_CHANNEL: String = "flutter_facebook_sdk_new/methodChannel"
+    private var EVENTS_CHANNEL: String = "flutter_facebook_sdk_new/eventChannel"
     private var queuedLinks: List<String> = emptyList()
     private var eventSink: EventSink? = null
     private var context: Context? = null
@@ -221,7 +221,7 @@ class FlutterFacebookSdkNewPlugin : FlutterPlugin, MethodCallHandler, StreamHand
     private fun initFbSdk() {
         FacebookSdk.setAutoInitEnabled(true)
         FacebookSdk.fullyInitialize()
-        logger = AppEventsLogger.newLogger(context)
+        logger = context?.let { AppEventsLogger.newLogger(it) }!!
 
         val targetUri = AppLinks.getTargetUrlFromInboundIntent(context, activityPluginBinding!!.activity.intent)
         AppLinkData.fetchDeferredAppLinkData(context, object : AppLinkData.CompletionHandler {
