@@ -1,3 +1,7 @@
+## 1.1.0
+- Fixed missing plugin registrant issue
+- Bump facebook sdk version into 18
+
 ## 1.0.10
 - Fixed versioning issues
 
