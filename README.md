@@ -22,6 +22,7 @@ This package is important for several projects. The original package was not wel
 </a>
 
 ## Other Maintainer :
+This package already updated to use the latest compatible versions of its dependencies—such as the Android Gradle Plugin, Gradle wrapper, Kotlin, CocoaPods, and iOS deployment target—so it builds and runs correctly across all platforms.
 
 <a href="https://satriawarn.github.io/" title="GitHub">
   <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" width="32" height="32" alt="GitHub"/>
