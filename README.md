@@ -1,6 +1,6 @@
 # Facebook Sdk For Flutter
 `facebook_sdk_flutter` allows you to fetch `deep links`, `deferred deep links` and `log facebook app events`.
-This was created using the latest facebook SDK to include support for xCode 16 and Flutter 2.3.XX. The plugin currently supports app events and deeps links for iOS and Android. 
+This was created using the latest facebook SDK to include support for xCode 16 and Flutter 3.3.XX. The plugin currently supports app events and deeps links for iOS and Android.
 
 ## First owner social media
 
@@ -14,8 +14,22 @@ This was created using the latest facebook SDK to include support for xCode 16 a
 
 This package is important for several projects. The original package was not well maintained by its original author, so I forked it and have made some updates through this package.
 
-[![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/griajobag/)
-[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://linkedin.com/in/putujoliartaguna)
+<a href="https://github.com/griajobag/" title="GitHub">
+  <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" width="32" height="32" alt="GitHub"/> GitHub
+</a>
+<a href="https://linkedin.com/in/putujoliartaguna" title="LinkedIn">
+  <img src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" width="32" height="32" alt="LinkedIn"/> Linkedin
+</a>
+
+## Other Maintainer :
+
+<a href="https://satriawarn.github.io/" title="GitHub">
+  <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" width="32" height="32" alt="GitHub"/>
+</a>
+<a href="https://linkedin.com/in/eriksatriawan" title="LinkedIn">
+  <img src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" width="32" height="32" alt="LinkedIn"/>
+</a>
+
 
 ## Prerequisites
 
@@ -46,9 +60,9 @@ Get your app id (referred to as [APP_ID] below)
     <true/>
 ```
 
-# For Android 
+# For Android
 
-* Add the following to your strings.xml file 
+* Add the following to your strings.xml file
 ```
 
 <string name="facebook_app_id">[APP_ID]</string>

@@ -15,11 +15,11 @@ class FlutterFacebookSdkNew {
 
   /// Method Channel Initilization to register method calls
   static const MethodChannel _channel =
-      const MethodChannel('flutter_facebook_sdk/methodChannel');
+      const MethodChannel('flutter_facebook_sdk_new/methodChannel');
 
   /// Event Channel to listen to event changes
   static const EventChannel _eventChannel =
-      const EventChannel("flutter_facebook_sdk/eventChannel");
+      const EventChannel("flutter_facebook_sdk_new/eventChannel");
 
   Stream<String>? _onDeepLinkReceived;
 
